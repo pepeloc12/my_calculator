@@ -8,13 +8,17 @@ function cube() {
  var num = document.getElementById("n1");
  num.value = Math.pow(num.value, 3);
 }
+function cuad() {
+ var num = document.getElementById("n1");
+ num.value = Math.pow(num.value, 4);ç
+}
 </script>
 </head>
 <body>
    <h1>Calculadora de Roberto Garcia Hernandez </h1>
    Number:
    <input type="text" id="n1"><p>
-   
+  <button onclick="cuad()"> x^4 </button> 
   <button onclick="cube()"> x^3 </button>
 </body>
 </html>
